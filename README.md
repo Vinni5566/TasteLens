@@ -277,6 +277,8 @@ The **TasteLens** system was evaluated using **Precision@5**, **Recall@5**, and 
 - **Recommend items based on similar users and similar dishes**.  
 - **Balance personalization and diversity** through hybrid aggregation.
 
+<br> 
+
 ### Evaluation Insights:
 
 - **Content-Based Filtering (CBF)** alone performs poorly due to limited user-specific features.  
