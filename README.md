@@ -5,20 +5,16 @@
 ---
 
 ## 📌 Quick Navigation
-- ✨ [Overview](#overview)
-- ⚠️ [Problem Statement](#problem-statement)
-- ⚙️ [Methodology](#methodology)
-  - 📝 [Content-Based Filtering](#1-content-based-filtering)
-  - 👥 [User-Based Collaborative Filtering](#2-user-based-collaborative-filtering-ubcf)
-  - 🍽️ [Item-Based Collaborative Filtering](#3-item-based-collaborative-filtering-ibcf)
-  - 🔀 [Hybrid Model](#4-hybrid-recommendation-model)
-- 🔄 [System Architecture / Workflow](#system-architecture--workflow)
-- 🗃️ [Dataset Description](#dataset-description)
-- 🛠️ [Feature Engineering & Preprocessing](#feature-engineering--preprocessing)
-- 💻 [Tech Stack](#tech-stack)
-- 📊 [Results & Observations](#results--observations)
-- ✅ [Conclusion](#conclusion)
-- 🚀 [Future Scope](#future-scope)
+- ✨ [Overview](#✨-overview)
+- ⚠️ [Problem Statement](#⚠️-problem-statement)
+- ⚙️ [Methodology](#⚙️-methodology)
+- 🔄 [System Architecture](#🔄-system-architecture)
+- 🗃️ [Dataset Description](#🗃️-dataset-description)
+- 🛠️ [Feature Engineering & Preprocessing](#🛠️-feature-engineering--preprocessing)
+- 💻 [Tech Stack](#💻-tech-stack)
+- 📊 [Results & Observations](#📊-results--observations)
+- ✅ [Conclusion](#✅-conclusion)
+- 🚀 [Future Scope](#🚀-future-scope)
 
 ---
 
