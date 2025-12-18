@@ -1,7 +1,8 @@
-# TasteLens
+# TasteLens 🍽️ : Your Taste, Our Lens ✨
+
 ---
 
-## Overview
+## ✨ Overview
 
 TasteLens is a personalized food recommendation system that suggests food items based on individual preferences. The system leverages multiple machine learning models to analyze user behavior and item characteristics, enabling more accurate and diverse recommendations.
 
@@ -9,7 +10,7 @@ The project explores different recommendation strategies and combines them to im
 
 ---
 
-## Problem Statement
+## ⚠️ Problem Statement
 
 - Food platforms offer a wide range of choices, making it difficult for users to find dishes that match their personal preferences.  
 - Most recommendation systems rely on generic or popularity-based suggestions, which fail to capture individual tastes.  
@@ -20,7 +21,7 @@ The project explores different recommendation strategies and combines them to im
 
 ---
 
-## Methodology
+## ⚙️ Methodology
 
 TasteLens follows a **multi-model recommendation approach** to deliver personalized food suggestions. Different recommendation techniques capture unique aspects of user behavior, and combining them improves overall recommendation quality.
 
@@ -48,7 +49,7 @@ TasteLens follows a **multi-model recommendation approach** to deliver personali
 
 ---
 
-## System Architecture / Workflow
+## 🔄 System Architecture
 
 TasteLens is designed as a **modular recommendation system**, where each component transforms user preference data into meaningful food recommendations. The architecture supports multiple recommendation models and allows their outputs to be combined in a structured manner.
 
@@ -98,7 +99,7 @@ Final Personalized Recommendations
 
 ---
 
-## Dataset Description
+## 🗃️ Dataset Description
 
 The dataset used in the TasteLens project consists of **1,500 records** representing user–food interactions. Each record captures detailed food attributes, nutritional information, user preferences, and contextual restaurant data. This enables the implementation of content-based, collaborative, and hybrid recommendation models.
 
@@ -151,7 +152,7 @@ Each row corresponds to a single interaction between a user and a food item, and
 
 ---
 
-## Feature Engineering & Preprocessing
+## 🛠️ Feature Engineering & Preprocessing
 
 The TasteLens dataset was preprocessed and transformed to extract meaningful features for all four recommendation models: Content-Based, User-Based Collaborative Filtering (UBCF), Item-Based Collaborative Filtering (IBCF), and Hybrid. The goal was to ensure that each model could effectively capture user preferences and item similarities.
 
@@ -205,26 +206,26 @@ combined = cuisine (2x) + diet_type (1.5x) + course + ingredients + goals
 
 ---
 
-## Tech Stack
+## 💻 Tech Stack
 
 The **TasteLens** project leverages **frontend, backend, and machine learning technologies** to deliver a complete **food recommendation system**.
 
 
-### 1. Frontend
+### 1. Frontend 🖥️
 
 - **React.js** – For building a **responsive, dynamic user interface**.
 - **JSX** – To structure **UI components** and seamlessly integrate **JavaScript with HTML**.
 
 <br>
 
-### 2. Backend
+### 2. Backend ⚙️
 
 - **Python** – Handles **server-side logic**, **API requests**, and **ML model integration**.
 - **Flask / FastAPI** – Serves **APIs** that connect the frontend with **machine learning models**.
 
 <br>
 
-### 3. Machine Learning
+### 3. Machine Learning 🤖
 
 - **Content-Based Filtering** – Uses **TF-IDF vectorization** and **cosine similarity**.
 - **Collaborative Filtering (User-Based & Item-Based)** – Computes **cosine similarity** on **user-item matrices**.
@@ -232,7 +233,7 @@ The **TasteLens** project leverages **frontend, backend, and machine learning te
 
 <br>
 
-### 4. Libraries & Tools
+### 4. Libraries & Tools 📦
 
 - **Pandas, NumPy** – For **data manipulation** and **preprocessing**.
 - **Scikit-learn** – For **TF-IDF vectorization** and **similarity calculations**.
@@ -269,7 +270,7 @@ The **TasteLens** system was evaluated using **Precision@5**, **Recall@5**, and 
 - The system is capable of delivering **personalized and relevant food suggestions** despite limitations in **dataset size and scope**.
 
 ---
-## Conclusion
+## ✅ Conclusion
 
 **TasteLens** demonstrates the effectiveness of a **multi-model recommendation system** for personalized food suggestions. By combining **content-based filtering**, **user-based and item-based collaborative filtering**, and a **hybrid approach**, the system can:
 
